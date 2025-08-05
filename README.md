@@ -82,7 +82,9 @@ Backend handles logic via API, frontend shows results.
 
 # 📬 Contact
 GitHub: AI-WAJID
+
 Email: wajidthephenom@gmail.com
+
 ├── run_backend.py            # Script to run FastAPI server
 ├── run_frontend.py           # Script to run Streamlit app
 └── README.md                 # Project documentation

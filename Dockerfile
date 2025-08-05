@@ -25,4 +25,4 @@ EXPOSE 10000
 COPY supervisord.conf /etc/supervisord.conf
 
 # Start supervisor (which manages both services)
-/usr/local/bin/supervisord -c /etc/supervisord.conf
+CMD ["/usr/local/bin/supervisord", "-c", "/etc/supervisord.conf"]

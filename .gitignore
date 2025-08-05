@@ -1,0 +1,26 @@
+# Ignore the virtual environment folder
+venv311/
+
+# Bytecode and cache folders
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Common data/model files you might want to avoid pushing
+*.h5
+*.pt
+*.pkl
+*.csv
+
+# Logs and runtime files
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables file
+.env
+
+# macOS system files
+.DS_Store
